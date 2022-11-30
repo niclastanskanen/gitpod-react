@@ -1,4 +1,5 @@
 import './App.css';
+import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
 // import StatefulGreeting from './components/StatefulGreeting';
@@ -13,7 +14,8 @@ import './App.css';
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent';
 // import RenderingLists from './components/RenderingLists';
 // import LifeCyclesCDM from './components/LifeCyclesCDM';
-import LifeCyclesCDU from './components/LifeCyclesCDU';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
+
 
 
 function App() {
@@ -33,7 +35,8 @@ function App() {
       {/* <MethodsAsPropsParent /> */}
       {/* <RenderingLists /> */}
       {/* <LifeCyclesCDM /> */}
-      <LifeCyclesCDU />
+      {/* <LifeCyclesCDU /> */}
+      <LifeCyclesCWU />
       
     </div>
   );
