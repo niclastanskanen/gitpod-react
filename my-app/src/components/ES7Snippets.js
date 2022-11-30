@@ -1,52 +1,52 @@
 
-// RFCE
-// import React from 'react'
+RFCE
+import React from 'react'
 
-// function ES7Snippets() {
-//   return (
-//     <div>ES7Snippets</div>
-//   )
-// }
+function ES7Snippets() {
+  return (
+    <div>ES7Snippets</div>
+  )
+}
 
-// export default ES7Snippets
+export default ES7Snippets
 
-// rafce
-// import React from 'react'
+rafce
+import React from 'react'
 
-// const ES7Snippets = () => {
-//   return (
-//     <div>ES7Snippets</div>
-//   )
-// }
+const ES7Snippets = () => {
+  return (
+    <div>ES7Snippets</div>
+  )
+}
 
-// export default ES7Snippets
-
-
-// rce
-// import React, { Component } from 'react'
-
-// export class ES7Snippets extends Component {
-//   render() {
-//     return (
-//       <div>ES7Snippets</div>
-//     )
-//   }
-// }
-
-// export default ES7Snippets
+export default ES7Snippets
 
 
-// rconst
-// constructor(props) {
-//   super(props)
+rce
+import React, { Component } from 'react'
 
-//   this.state = {
-//      first
-//   }
-// }
+export class ES7Snippets extends Component {
+  render() {
+    return (
+      <div>ES7Snippets</div>
+    )
+  }
+}
 
-// clg
-// console.log(first)
+export default ES7Snippets
 
-// clo
-// console.log('first', first)
+
+rconst
+constructor(props) {
+  super(props)
+
+  this.state = {
+     first
+  }
+}
+
+clg
+console.log(first)
+
+clo
+console.log('first', first)
