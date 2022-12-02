@@ -1,5 +1,6 @@
 import './App.css';
-import ControlledForm from './components/ControlledForm';
+// import ControlledForm from './components/ControlledForm';
+import UncontrolledForm from './components/UncontrolledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
@@ -38,7 +39,8 @@ function App() {
       {/* <LifeCyclesCDM /> */}
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
-      <ControlledForm />
+      {/* <ControlledForm /> */}
+      <UncontrolledForm />
       
     </div>
   );
