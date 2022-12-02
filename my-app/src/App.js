@@ -1,6 +1,7 @@
 import './App.css';
+import SearchBar from './components/SearchBar';
 // import ControlledForm from './components/ControlledForm';
-import UncontrolledForm from './components/UncontrolledForm';
+// import UncontrolledForm from './components/UncontrolledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
 // import FunctionalGreeting from './components/FunctionalGreeting';
 // import FunctionalGreetingWithProps from './components/FunctionalGreetingWithProps';
@@ -40,7 +41,8 @@ function App() {
       {/* <LifeCyclesCDU /> */}
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
-      <UncontrolledForm />
+      {/* <UncontrolledForm /> */}
+      <SearchBar />
       
     </div>
   );
