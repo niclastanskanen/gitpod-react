@@ -1,5 +1,6 @@
 import './App.css';
-import SearchBar from './components/SearchBar';
+import ControlledFromHooks from './components/ControlledFromHooks';
+// import SearchBar from './components/SearchBar';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import LifeCyclesCWU from './components/LifeCyclesCWU';
@@ -42,7 +43,8 @@ function App() {
       {/* <LifeCyclesCWU /> */}
       {/* <ControlledForm /> */}
       {/* <UncontrolledForm /> */}
-      <SearchBar />
+      {/* <SearchBar /> */}
+      <ControlledFromHooks />
       
     </div>
   );
