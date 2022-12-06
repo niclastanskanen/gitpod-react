@@ -1,6 +1,7 @@
 import './App.css';
-import ClassCounter from './components/ClassCounter';
-import UseEffectCounter from './components/UseEffectCounter';
+import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+// import ClassCounter from './components/ClassCounter';
+// import UseEffectCounter from './components/UseEffectCounter';
 // import UseStateWithArrays from './components/UseStateWithArrays';
 // import UseStateWithObjects from './components/UseStateWithObjects';
 // import ControlledFromHooks from './components/ControlledFromHooks';
@@ -51,8 +52,9 @@ function App() {
       {/* <ControlledFromHooks /> */}
       {/* <UseStateWithArrays /> */}
       {/* <UseStateWithObjects /> */}
-      <ClassCounter />
-      <UseEffectCounter />
+      {/* <ClassCounter />
+      <UseEffectCounter /> */}
+      <UseEffectCounterContainer />
       
     </div>
   );
